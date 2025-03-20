@@ -1,4 +1,4 @@
-export type UiState = 'initial' | 'loading' | 'error' | 'data' | 'empty';
+export type UiState = "initial" | "loading" | "error" | "data" | "empty";
 
 export type Category = {
   id: string;
@@ -24,4 +24,8 @@ export type Question = {
   text: string;
   answers: Answer[];
   category: Category;
+};
+
+export type Button = {
+  text: string;
 };
